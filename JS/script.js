@@ -7,6 +7,6 @@ let burgerMenu=document.getElementById('burger');
 let drpDwnMenu=document.getElementById('menu');
 
 burgerMenu.addEventListener('click',function(){
-    drpDwnMenu.classList.toggle('max-sm:invisible');
+    drpDwnMenu.classList.toggle('max-md:invisible');
 })
 
