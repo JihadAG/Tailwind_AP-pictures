@@ -16,39 +16,39 @@
         <script src="JS/script-config.js"></script>
       
     </head>
-    <body class="dark:bg-apDarkBlue overflow-x-hidden"  style="font-family:'Century Gothic',sans-serif ;" >
+    <body class="dark:bg-apDarkBlue overflow-x-hidden flex flex-col min-h-[100vh]"  style="font-family:'Century Gothic',sans-serif ;" >
         <!-- Nav Bar -->
         <div class="md:flex md:items-end ml-0 mt-5 pb-5 relative  ">
             <button id="burger" class="max-md:float-right max-md:mt-8 max-md:mr-[20px] max-md:cursor-pointer md:invisible md:absolute"><img class="w-10 " src="images/burger-menu.png" alt=""></button>
             <a class="" href="index.html"><img class=" w-44  max-md:mb-[15px] pl-[25px] pt-[20px] pb-0 pr-[10px]" src="images/main_logo.svg" alt=""></a>
-            <ul id="menu" class=" max-md:invisible max-md:absolute right-0 top-[80px] md:flex max-md:mr-[20px]  md:items-end max-md:bg-white max-md:w-40 max-md:rounded-[5px] p-0 m-0">
-                <li class="text-base text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[25px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="logo.html">LOGO</a></li>
-                <li class="text-base text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">MOVIES</a></li>
-                <li class="text-base text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">DOCUMENTARY</a></li>
-                <li class="text-base text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">MUSIC</a></li>
-                <li class="text-base text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">TV</a></li>
-                <li class="text-base text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">ABOUT</a></li>
+            <ul id="menu" class=" max-md:invisible max-md:absolute right-0 top-[80px] md:flex max-md:mr-[20px]  md:items-end max-md:bg-white max-md:dark:bg-[#3f387e] max-md:w-40 max-md:rounded-[5px] p-0 m-0">
+                <li class="text-base max-md:dark:text-white max-md:dark:hover:border-l-white text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[25px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="logo.html">LOGO</a></li>
+                <li class="text-base max-md:dark:text-white max-md:dark:hover:border-l-white text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">MOVIES</a></li>
+                <li class="text-base max-md:dark:text-white max-md:dark:hover:border-l-white text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">DOCUMENTARY</a></li>
+                <li class="text-base max-md:dark:text-white max-md:dark:hover:border-l-white text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">MUSIC</a></li>
+                <li class="text-base max-md:dark:text-white max-md:dark:hover:border-l-white text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">TV</a></li>
+                <li class="text-base max-md:dark:text-white max-md:dark:hover:border-l-white text-white max-md:text-apDarkBlue  md:hover:text-navHover md:font-light tracking-wide pb-[4px] md:ml-[20px] max-md:hover:border-l-[3px] max-md:hover:border-l-apDarkBlue  max-md:p-1.5 max-md:pl-2 "><a href="">ABOUT</a></li>
             </ul>
             <button id="dark-mode" class="text-white hover:text-navHover  p-2 md:ml-[550px] max-md:invisible">Dark</button>
         </div>
         <!-- Welcome Message -->
-        <div class="w-full md:w-[800px] text-center mx-auto max-md:px-auto">
+        <div class="w-full md:w-[800px] text-center mx-auto max-md:px-auto max-md:leading-6">
             <p class="font-bold text-[20px] md:text-[38px] text-white md:mt-[90px]">WELCOME TO AP PICTURES</p>
             <p class="max-md:tracking-wider text-[10px] md:text-[24px] text-white font-light">“Art in itself is a prerequisite for the existence of other matters”</p>
         <!-- Search Bar  -->
        <div class=" flex  md:mt-[60px] mt-[35px] md:h-[5.625rem] h-12 max-md:justify-center">
-        <input class=" md:w-[85%] max-md:w-[65%] bg-searchBarInput p-[20px] pl-[50px] outline-0 rounded-l-3xl max-md:rounded-l-xl text-[24px] md:text-[32px] hover:bg-white placeholder:text-inputPlaceholder" type="text" placeholder="SEARCH...">
+        <input class=" md:w-[85%] max-md:w-[65%] bg-searchBarInput p-[20px] pl-[50px] max-md:pl-[15px] outline-0 rounded-l-3xl max-md:rounded-l-xl text-[24px] md:text-[32px] hover:bg-white placeholder:text-inputPlaceholder" type="text" placeholder="SEARCH...">
         <button class="outline-0 border-0 p-0 rounded-r-3xl cursor-pointer md:w-[141px] w-[75px] "><img class="md:h-[5.625rem] h-12 md:w-[141px] w-[75px] overflow-hidden" src="images/welcom/search_bar_button.png" alt=""></button>
        </div>
         <!-- Suggestions -->
-        <div class="flex md:mt-[60px] mt-[35px] p-0 justify-center max-md:w-[75%] max-md:ml-[3.7rem] ">
-        <a class="p-[4px]" href=""><img class="max-md:w-[110px] h-[25px]" src="images/welcom/search_suggestion_1.png" alt=""></a>
-        <a class="p-[4px]" href=""><img class="max-md:w-[110px] h-[25px]" src="images/welcom/search_suggestion_2.png" alt=""></a>
-        <a class="p-[4px]" href=""><img class="max-md:w-[110px] h-[25px]" src="images/welcom/search_suggestion_3.png" alt=""></a>
+        <div class="flex md:mt-[60px] mt-[20px] p-0 justify-center max-md:w-[80%] max-md:ml-[2.7rem] ">
+        <a class="p-[4px]" href=""><img class="max-md:w-[110px] md:h-[25px] h-[21px]" src="images/welcom/search_suggestion_1.png" alt=""></a>
+        <a class="p-[4px]" href=""><img class="max-md:w-[110px] md:h-[25px] h-[21px]" src="images/welcom/search_suggestion_2.png" alt=""></a>
+        <a class="p-[4px]" href=""><img class="max-md:w-[110px] md:h-[25px] h-[21px]" src="images/welcom/search_suggestion_3.png" alt=""></a>
     </div> 
     <!-- Square Bars -->
 </div>
-<div class="flex justify-center p-0 mt-24">
+<div class="flex justify-center p-0 md:mt-24 mt-16 ">
     <a href=""><img src="images/welcom/logo_square.png" class="w-x-full h-auto" alt=""></a>
     <a href=""><img src="images/welcom/movies_square.png" class="w-x-full h-auto" alt=""></a>
     <a href=""><img src="images/welcom/music_square.png" class="w-x-full h-auto" alt=""></a>
@@ -56,7 +56,7 @@
     <a href=""><img src="images/welcom/tv_square.png" class="w-x-full h-auto" alt=""></a>
 </div>
 <!-- Footer  -->
-<footer>
+<footer class="mt-auto">
     <div class="footer-basic">
         <footer>
             <div class="social">
